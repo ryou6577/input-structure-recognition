@@ -5,6 +5,12 @@ This repository explores **input-structure recognition** in market OHLCV data.
 Instead of focusing on prediction, we analyze whether the input features form a
 low-rank structure and how that structure changes over time (regime stability / transition).
 
+## Perspective
+This project treats market data as a **structure-generation process**, not merely a prediction target.  
+By designing input features as a representation space, we attempt to reveal whether the market exhibits a **low-rank structure**, how stable that structure is over time, and when it **drifts or transitions** into a new regime.  
+In this view, feature engineering is not an auxiliary step—it is the core mechanism that makes structure observable.
+
+
 ## Key Ideas
 - Raw price/volume series often hide structure.
 - Feature engineering creates a representation space where structure becomes visible.
