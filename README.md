@@ -36,11 +36,12 @@ In this view, feature engineering is not an auxiliary step—it is the core mech
 6) Anchor similarity:
    - compares rolling subspace identity vs a fixed reference ("anchor") structure
 
+<img width="1029" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/34a3dc5a-bd92-4139-a8e8-e091a0b10569" />
+
+<img width="893" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/3caafb35-6bad-41fc-ae75-2ccd840625d4" />
+
 ## How to Run
 ```bash
 pip install -r requirements.txt
 python compare.py
 
-<img width="1029" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/34a3dc5a-bd92-4139-a8e8-e091a0b10569" />
-
-<img width="893" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/3caafb35-6bad-41fc-ae75-2ccd840625d4" />
